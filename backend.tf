@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket         = ****CHANGEBUCKETNAME***
-    region         = "eu-west-2"
-    key            = "Github-Runner-TF/terraform.tfstate"
-    encrypt        = true
+    bucket  = ""
+    region  = "us-east-1"
+    key     = "Github-Runner-TF/terraform.tfstate"
+    encrypt = true
   }
   required_version = ">= 1.0.0"
   required_providers {
