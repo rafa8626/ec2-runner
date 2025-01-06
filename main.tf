@@ -35,7 +35,7 @@ resource "aws_security_group" "runner-sg" {
     to_port     = 22
     protocol    = "tcp"
     # Allow SSH access only from EC2 Instance Connect
-    cidr_blocks      = ["3.8.37.24/29"]
+    cidr_blocks      = ["18.206.107.24/29"]
     ipv6_cidr_blocks = []
     self             = false
     prefix_list_ids  = []
